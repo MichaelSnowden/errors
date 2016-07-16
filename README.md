@@ -1,5 +1,3 @@
-# Demo
-
 ## Complete Example
 
 Check out https://github.com/MichaelSnowden/errors_demo
