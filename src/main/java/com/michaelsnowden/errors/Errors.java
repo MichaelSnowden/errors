@@ -6,11 +6,11 @@ import java.util.function.Function;
  * Created by michael.snowden on 7/15/16.
  */
 public class Errors {
-    interface ExceptionalFunction<T, R> {
+    public interface ExceptionalFunction<T, R> {
         R apply(T t) throws Exception;
     }
 
-    static class UncheckedExceptionalFunctionError extends RuntimeException {
+    public static class UncheckedExceptionalFunctionError extends RuntimeException {
         public UncheckedExceptionalFunctionError(Throwable cause) {
             super(cause);
         }
