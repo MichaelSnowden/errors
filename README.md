@@ -1,5 +1,10 @@
 # Demo
 
+## Complete Example
+
+Check out https://github.com/MichaelSnowden/errors_demo
+
+## Code snippet
 ```java
 import java.io.BufferedReader;
 import java.io.File;
@@ -18,4 +23,23 @@ class Example {
                 .collect(Collectors.joining(System.lineSeparator())));
     }
 }
+```
+
+## pom.xml
+
+```xml
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+
+<dependencies>
+    <dependency>
+        <groupId>com.github.MichaelSnowden</groupId>
+        <artifactId>errors</artifactId>
+        <version>${errors.version}</version>
+    </dependency>
+</dependencies>
 ```
