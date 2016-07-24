@@ -1,4 +1,4 @@
-package com.michaelsnowden.errors;
+package com.michaelsnowden.errors.exceptional;
 
 /**
  * Created by michael.snowden on 7/17/16.
