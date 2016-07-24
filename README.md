@@ -56,7 +56,7 @@ Essentially, the most common functional interfaces have a corresponding `rethrow
 - `Function<T, R>`
 - `BiFunction<T, U, R>`
 
-If you wan't to rethrow your own exception, you can always make your own exception handlers and use something like
+If you want to rethrow your own exception, you can always use something like
 
 ```java
 rethrow(someExceptionalFunction, MyException::new)
