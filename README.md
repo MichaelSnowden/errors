@@ -76,10 +76,6 @@ fallback(f1, rethrow(f2))
 
 Just take a look at the `Errors` class for any other questions. 
 
-## Example
-
-Check out https://github.com/MichaelSnowden/errors_demo
-
 ## pom.xml
 
 ```xml
